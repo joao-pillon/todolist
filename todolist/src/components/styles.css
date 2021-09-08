@@ -1,0 +1,62 @@
+
+button {
+    background-color:teal;
+    border: transparent;
+    width: 65px;
+    height: 32px;
+    border-radius: 15px;
+    color:white;
+    text-shadow: black 1px 1px 2px;
+}
+
+button:hover {
+filter: brightness(0.9);
+cursor: pointer;
+}
+
+.Conc {
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 50px;
+    background-color: teal;
+    border: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color:white;
+    text-shadow: black 1px 1px 2px;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+input {
+
+    font-size: 14px;
+    border: transparent;
+    height: 25px;
+    margin: 20px;
+
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+ul{
+
+}
+
+.Tarefas{
+    color:turquoise;
+    font-size: 30px;
+    width: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
